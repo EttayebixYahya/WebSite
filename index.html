@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Epic Of Blue Blue - Adventure Game</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+    <nav class="bg-blue-900 text-white p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold">Epic Of Blue Blue</h1>
+            <div class="space-x-4">
+                <a href="#home" class="hover:text-blue-300">Home</a>
+                <a href="#history" class="hover:text-blue-300">History</a>
+                <a href="#info" class="hover:text-blue-300">Info</a>
+                <a href="Gaea Procedural Generation Tutorial.html" class="hover:text-blue-300">Game</a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="py-20 bg-gradient-to-b from-blue-900 to-blue-700 text-white">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-5xl font-bold mb-8">Welcome to Epic Of Blue Blue</h2>
+            
+            <div class="max-w-3xl mx-auto">
+                <p class="text-2xl font-semibold mb-8">Stay tuned for our upcoming adventure!</p>
+                <div class="space-y-6">
+                    <div class="bg-blue-800/50 backdrop-blur-sm p-8 rounded-xl shadow-lg">
+                        <h3 class="text-3xl font-bold mb-4">Coming Soon</h3>
+                        <p class="text-xl text-blue-200">A new epic adventure awaits...</p>
+                    </div>
+                    <a href="#info" class="inline-block bg-blue-500 hover:bg-blue-600 text-white px-10 py-4 rounded-full text-lg font-bold transition duration-300 transform hover:scale-105">Discover More</a>
+                </div>
+            </div>
+           
+        </div>
+    </section>
+
+    <section id="history" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-12 text-blue-900">Game History</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div>
+                    <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e" alt="Game Development" class="rounded-lg shadow-lg">
+                </div>
+                <div class="space-y-4">
+                    <h3 class="text-2xl font-bold text-blue-800">The Beginning</h3>
+                    <p class="text-gray-700">ta t3tiwha lia mektouba mzn ;-;.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="info" class="py-20 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-12 text-blue-900">Game Features</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f" alt="Gameplay" class="w-full h-48 object-cover rounded-lg mb-4">
+                    <h3 class="text-xl font-bold text-blue-800 mb-2">Dynamic Combat</h3>
+                    <p class="text-gray-700">Experience fluid, responsive combat with multiple fighting styles and abilities.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <img src="https://images.unsplash.com/photo-1552820728-8b83bb6b773f" alt="World" class="w-full h-48 object-cover rounded-lg mb-4">
+                    <h3 class="text-xl font-bold text-blue-800 mb-2">Vast Open World</h3>
+                    <p class="text-gray-700">Explore a massive world filled with hidden treasures and secret locations.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <img src="https://images.unsplash.com/photo-1553481187-be93c21490a9" alt="Characters" class="w-full h-48 object-cover rounded-lg mb-4">
+                    <h3 class="text-xl font-bold text-blue-800 mb-2">Rich Story</h3>
+                    <p class="text-gray-700">Immerse yourself in a compelling narrative with memorable characters.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="py-20 bg-gradient-to-r from-blue-700 to-blue-500 text-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-12">Contact Us</h2>
+            <form
+                class="space-y-6 max-w-lg mx-auto bg-white p-8 rounded-lg shadow-lg text-gray-800"
+                action="https://formsubmit.co/88560faf1173b0bc20a44477e8730750"
+                method="POST"
+            >
+                <div>
+                    <input
+                        type="text"
+                        class="w-full p-3 rounded border border-gray-300"
+                        placeholder="Your Name"
+                        name="name"
+                        required
+                    />
+                </div>
+                <div>
+                    <input
+                        type="email"
+                        class="w-full p-3 rounded border border-gray-300"
+                        placeholder="Your Email"
+                        name="email"
+                        required
+                    />
+                </div>
+                <div>
+                    <textarea
+                        class="w-full p-3 rounded border border-gray-300"
+                        placeholder="Your Message"
+                        name="message"
+                        rows="5"
+                        required
+                    ></textarea>
+                </div>
+                <!-- Honeypot field to prevent bots -->
+                <input type="text" name="_honey" style="display:none">
+                <!-- Redirect after form submission -->
+                <input type="hidden" name="_next" value="https://epic-of-the-blue-ogers.tiiny.site/">
+                <button
+                    type="submit"
+                    class="w-full p-3 bg-blue-500 hover:bg-blue-600 text-white font-bold rounded transition"
+                >
+                    Send Message
+                </button>
+            </form>
+        </div>
+                
+    </section>
+    
+    <footer class="bg-blue-900 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="text-2xl font-bold mb-4 md:mb-0">Epic Of Blue Blue</div>
+                <div class="flex space-x-6">
+                    <a href="#" class="text-3xl hover:text-blue-300"><i class="fab fa-youtube"></i></a>
+                    <a href="#" class="text-3xl hover:text-blue-300"><i class="fab fa-tiktok"></i></a>
+                    <a href="#" class="text-3xl hover:text-blue-300"><i class="fab fa-facebook"></i></a>
+                </div>
+            </div>
+            <div class="text-center mt-8 text-sm text-blue-200">
+                © 2025 Ettayebi. All rights reserved.
+            </div>
+        </div>    
+    </footer>
+</body>
+</html>
